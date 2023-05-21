@@ -1,0 +1,108 @@
+form{
+    
+    padding: 16px 32px 16px 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+    border-radius: 16px;
+
+    .nav-link{
+        //styleName: Montserrat/Semibold/16px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #112211;
+    }
+    
+    .nav-link.active{
+        background-color: #FFFFFF;
+        border-bottom: 4px solid #8DD3BB
+    }
+
+    label{
+        padding: 0 3px 0 3px;
+        margin-left: 12px;
+        //styleName: Montserrat/Regular/14px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #112211;
+        top: 0;
+        position: absolute;
+        background-color: #fff;
+    }
+    .form-fs-md{
+        position: relative;
+        padding-top: 9px;
+    }
+    .form-fs-lg{
+        @extend .form-fs-md;
+    }
+    input{
+        background: #FFFFFF;
+        border: 1px solid #79747E;
+        border-radius: 4px;
+        //styleName: Montserrat/Regular/16px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1C1B1F;
+
+    }
+    select{
+        
+        border: 1px solid #79747E;
+        border-radius: 4px;
+        //styleName: Montserrat/Regular/16px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1C1B1F;
+    }
+    .add{
+        background: #FFFFFF;
+        
+        border-radius: 4px;
+        color: #112211;
+        border: none;
+        
+        padding: 8px 16px 8px 16px;
+        //styleName: Montserrat/Medium/14px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .show-flight{
+        background: $main-bg;
+        border-radius: 4px;
+        color: #112211;
+        border: none;
+        height: 48px;
+        padding: 8px 16px 8px 16px;
+        //styleName: Montserrat/Medium/14px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+       
+}
+.mt-n6 {
+    margin-top: -5.5rem !important;
+}

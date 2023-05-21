@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@500&family=Montserrat:wght@500&display=swap');
+
+@import "scss/variables";
+@import "scss/_mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    @import "scss/header";
+
+    @import "scss/index";
+
+    @import "scss/footer";
+}
+
+@import "scss/flightsearch";
+
+@import "scss/flightlisting";
+
+@import "scss/flightdetail";
+
+@import "scss/booking-detail";

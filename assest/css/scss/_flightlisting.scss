@@ -1,0 +1,220 @@
+.flight-listing{
+    main{
+        section{
+            .fliters {
+                h4 {
+                    //styleName: Montserrat/Semibold/20px;
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+                .accordion {
+                    margin-top: 20px;
+                }
+    
+                .accordion-button:not(.collapsed) {
+                    background-color: #fff;
+                }
+    
+                .accordion-button {
+                    //styleName: Montserrat/Semibold/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+    
+                }
+            }
+            .contant {
+                ul {
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                    border-radius: 12px;
+                }
+                h6 {
+                    //styleName: Montserrat/Semibold/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #000;
+                }
+            }
+            .showing {
+                h3 {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+                }
+                small {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+            }
+                .card {
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                border-radius: 12px;
+
+                h6 {
+                    //styleName: Montserrat/Bold/12px;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 15px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+
+                }
+
+                span {
+                    border: 1px solid #8DD3BB;
+                    border-radius: 4px;
+                    padding: 4px 8px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+
+                p {
+                    //styleName: Montserrat/Medium/12px;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 15px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+
+                h2 {
+                    //styleName: Montserrat/Bold/24px;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 29px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #FF8682;
+                }
+
+                label {
+                    //styleName: Montserrat/Semibold/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+
+                }
+
+                .btn {
+                    background: #8DD3BB;
+                    border-radius: 4px;
+
+                    left: 0px;
+                    top: 0px;
+                    border-radius: 4px;
+                    padding: 8px 16px 8px 16px;
+
+                }
+
+            }
+  #panelsStayOpen-collapseOne,
+        #panelsStayOpen-collapseTwo {
+
+
+            .range-slide {
+                position: relative;
+                margin: 20px 0;
+                height: 4px;
+                width: 100%;
+            }
+
+            .slide {
+                position: absolute;
+                top: 0;
+                height: 4px;
+                background: #ccc;
+                left: 9px;
+                right: 9px;
+            }
+
+            .line {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                height: 4px;
+                background-color: red;
+            }
+
+            .thumb {
+                position: absolute;
+                z-index: 2;
+                text-align: left;
+                border: 1px solid #8DD3BB;
+                background-color: #8DD3BB;
+                border-radius: 50%;
+                outline: none;
+                top: -7px;
+                height: 18px;
+                width: 18px;
+                margin-left: -9px;
+            }
+
+            input {
+                -webkit-appearance: none;
+                appearance: none;
+                position: absolute;
+                pointer-events: none;
+                z-index: 3;
+                height: 3px;
+                top: 0;
+                width: 100%;
+                opacity: 0;
+                margin: 0;
+            }
+
+            input::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                pointer-events: all;
+                border-radius: 50%;
+                cursor: pointer;
+                width: 18px;
+                height: 18px;
+            }
+
+            .display {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+        }
+            }
+        }
+    }

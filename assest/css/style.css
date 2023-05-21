@@ -1,0 +1,1669 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@500&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  padding: 21px, 104px, 21px, 104px;
+}
+body header h4 {
+  font-size: 12px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+body header nav {
+  color: #ffffff;
+}
+body header button, body header .btn-1 {
+  background-color: #FFFFFF;
+  border: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body header .btn-1 {
+  background: #112211;
+  border-radius: 8px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  min-width: 93px;
+  text-align: center;
+  min-height: 38px;
+}
+body .narendra {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #FAFBFC;
+}
+body .narendra header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+}
+body .narendra header h4 {
+  font-size: 12px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+body .narendra header nav {
+  color: #ffffff;
+}
+body .narendra header button, body .narendra header .btn-1 {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 17px !important;
+  letter-spacing: 0em !important;
+  text-align: left;
+}
+body .narendra header .btn {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  line-height: 17px !important;
+  letter-spacing: 0em !important;
+  text-align: left;
+}
+body .narendra header .jkfdsbd {
+  top: 10px;
+}
+body .narendra main .btn-see {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #8DD3BB;
+  background-color: #fff;
+}
+body .narendra main h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main section .container-fluid .banner {
+  background-image: url(../img/home-top-img.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 599px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #554d4d;
+  background-blend-mode: overlay;
+  border-radius: 24px;
+}
+body .narendra main section .container-fluid .banner .row {
+  position: relative;
+  z-index: 2;
+}
+body .narendra main section .container-fluid .banner h2 {
+  font-family: TradeGothic LT Extended;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+body .narendra main section .container-fluid .banner h1 {
+  font-family: TradeGothic LT Extended;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+body .narendra main section .container-fluid .banner p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body .narendra main section .container-fluid form {
+  padding: 16px 32px 16px 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  border-radius: 16px;
+}
+body .narendra main section .container-fluid form .nav-link {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body .narendra main section .container-fluid form .nav-link.active {
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #8DD3BB;
+}
+body .narendra main section .container-fluid form label {
+  padding: 0 3px 0 3px;
+  margin-left: 12px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+  top: 0;
+  position: absolute;
+  background-color: #fff;
+}
+body .narendra main section .container-fluid form .form-fs-md, body .narendra main section .container-fluid form .form-fs-lg {
+  position: relative;
+  padding-top: 9px;
+}
+body .narendra main section .container-fluid form input {
+  background: #FFFFFF;
+  border: 1px solid #79747E;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C1B1F;
+}
+body .narendra main section .container-fluid form select {
+  border: 1px solid #79747E;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C1B1F;
+}
+body .narendra main section .container-fluid form .add {
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: #112211;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main section .container-fluid form .show-flight {
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  border: none;
+  height: 48px;
+  padding: 8px 16px 8px 16px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main section .container-fluid .mt-n6 {
+  margin-top: -5.5rem !important;
+}
+body .narendra main section .categery h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main section .categery p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main section .categery button, body .narendra main section .categery header .btn-1, body header .narendra main section .categery .btn-1 {
+  background-color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #8DD3BB;
+}
+body .narendra main section .categery .card-cat {
+  background: #FFFFFF;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+  width: 100%;
+}
+body .narendra main section .categery .card-cat h5 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body .narendra main section .categery .card-cat p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body .narendra main .sec-3 .cat .card {
+  width: 100%;
+  height: 100%;
+}
+body .narendra main .sec-3 .cat .card-body {
+  position: absolute;
+  bottom: 0;
+}
+body .narendra main .sec-3 .cat .card-body p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+body .narendra main .sec-3 .cat .card-body h5 {
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+body .narendra main .sec-3 .cat .card-body a {
+  background: #8DD3BB;
+  color: #112211;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .narendra main .sec-4 .card {
+  background: #FFFFFF;
+  box-shadow: 2px 4px 16px rgba(17, 34, 17, 0.1);
+  border-radius: 20px;
+}
+body .narendra main .sec-4 .card h5 {
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body .narendra main .sec-4 .card p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body .narendra main .sec-4 .card a {
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #112211;
+}
+body .narendra main .sec-4 .card i {
+  color: #FFC107;
+}
+body .narendra main .sec-4 .card h4 {
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+body footer .footer {
+  background-color: #8DD3BB;
+  padding-top: 120px;
+  margin-top: -87px;
+}
+body footer .Subscribe .container {
+  padding: 0 24px;
+  background: #CDEAE1;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 20px;
+}
+body footer .Subscribe .container h3 {
+  font-family: TradeGothic LT Extended;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body footer .Subscribe .container h4 {
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body footer .Subscribe .container p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body footer .Subscribe .container input {
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+body footer .Subscribe .container button, body footer .Subscribe .container header .btn-1, body header footer .Subscribe .container .btn-1 {
+  padding: 8px 16px 8px 16px;
+  background: #112211;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body footer h5 {
+  font-family: TradeGothic LT Extended;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body footer a {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211 !important;
+  text-decoration: none;
+}
+body footer a:hover {
+  color: #112211 !important;
+}
+
+.flight-search section h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.flight-search section p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.flight-search section .jsk123 .banner {
+  background-image: url(../img/Frame_36.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flight-search section .jsk123 .banner .row {
+  position: relative;
+  z-index: 2;
+}
+.flight-search section .jsk123 form {
+  padding: 16px 32px 16px 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  border-radius: 16px;
+}
+.flight-search section .jsk123 form .nav-link {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-search section .jsk123 form .nav-link.active {
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #8DD3BB;
+}
+.flight-search section .jsk123 form label {
+  padding: 0 3px 0 3px;
+  margin-left: 12px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+  top: 0;
+  position: absolute;
+  background-color: #fff;
+}
+.flight-search section .jsk123 form .form-fs-md, .flight-search section .jsk123 form .form-fs-lg, .flight-search body .narendra main section .jsk123 .container-fluid form .form-fs-lg, body .narendra main .flight-search section .jsk123 .container-fluid form .form-fs-lg, .flight-search body .narendra main section .container-fluid .jsk123 form .form-fs-lg, body .narendra main .flight-search section .container-fluid .jsk123 form .form-fs-lg {
+  position: relative;
+  padding-top: 9px;
+}
+.flight-search section .jsk123 form input {
+  background: #FFFFFF;
+  border: 1px solid #79747E;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C1B1F;
+}
+.flight-search section .jsk123 form select {
+  border: 1px solid #79747E;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1C1B1F;
+}
+.flight-search section .jsk123 form .add {
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: #112211;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-search section .jsk123 form .show-flight {
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+  border: none;
+  height: 48px;
+  padding: 8px 16px 8px 16px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-search section .jsk123 .mt-n6 {
+  margin-top: -5.5rem !important;
+}
+.flight-search section .trevel-card .card {
+  width: 100%;
+  height: 100%;
+}
+.flight-search section .trevel-card .card-body {
+  position: absolute;
+  bottom: 0;
+}
+.flight-search section .trevel-card .card-body a {
+  background: #8DD3BB;
+  color: #112211;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-search section .trevel-card h5 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.flight-search section .trevel-card h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.flight-search section .trevel-card p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.flight-search section .second {
+  background: #8DD3BB;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+.flight-search section .second h2 {
+  font-family: TradeGothic LT Extended;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-search section .second .card p {
+  font-family: TradeGothic LT Extended;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.flight-search section .second .card h3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.flight-search section .second p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+.flight-search section .second button, .flight-search section .second body header .btn-1, body header .flight-search section .second .btn-1 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.flight-listing main section .fliters h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-listing main section .fliters .accordion {
+  margin-top: 20px;
+}
+.flight-listing main section .fliters .accordion-button:not(.collapsed) {
+  background-color: #fff;
+}
+.flight-listing main section .fliters .accordion-button {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-listing main section .contant ul {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+.flight-listing main section .contant h6 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+.flight-listing main section .showing h3 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-listing main section .showing small {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-listing main section .card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+.flight-listing main section .card h6 {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-listing main section .card span {
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+.flight-listing main section .card p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.flight-listing main section .card h2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF8682;
+}
+.flight-listing main section .card label {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-listing main section .card .btn {
+  background: #8DD3BB;
+  border-radius: 4px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+}
+.flight-listing main section #panelsStayOpen-collapseOne .range-slide,
+.flight-listing main section #panelsStayOpen-collapseTwo .range-slide {
+  position: relative;
+  margin: 20px 0;
+  height: 4px;
+  width: 100%;
+}
+.flight-listing main section #panelsStayOpen-collapseOne .slide,
+.flight-listing main section #panelsStayOpen-collapseTwo .slide {
+  position: absolute;
+  top: 0;
+  height: 4px;
+  background: #ccc;
+  left: 9px;
+  right: 9px;
+}
+.flight-listing main section #panelsStayOpen-collapseOne .line,
+.flight-listing main section #panelsStayOpen-collapseTwo .line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 4px;
+  background-color: red;
+}
+.flight-listing main section #panelsStayOpen-collapseOne .thumb,
+.flight-listing main section #panelsStayOpen-collapseTwo .thumb {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  border: 1px solid #8DD3BB;
+  background-color: #8DD3BB;
+  border-radius: 50%;
+  outline: none;
+  top: -7px;
+  height: 18px;
+  width: 18px;
+  margin-left: -9px;
+}
+.flight-listing main section #panelsStayOpen-collapseOne input,
+.flight-listing main section #panelsStayOpen-collapseTwo input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  position: absolute;
+  pointer-events: none;
+  z-index: 3;
+  height: 3px;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  margin: 0;
+}
+.flight-listing main section #panelsStayOpen-collapseOne input::-webkit-slider-thumb,
+.flight-listing main section #panelsStayOpen-collapseTwo input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: all;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+.flight-listing main section #panelsStayOpen-collapseOne .display,
+.flight-listing main section #panelsStayOpen-collapseTwo .display {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight-detail main section .jssk-1 .breadcrumb-item {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF8682;
+}
+.flight-detail main section .jssk-1 h3 {
+  font-family: TradeGothic LT Extended;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .p-mah {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .p-very {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .card {
+  background: rgba(141, 211, 187, 0.6);
+  border-radius: 8px;
+}
+.flight-detail main section .jssk-1 .book-now-btn {
+  font-family: Montserrat !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  line-height: 17px !important;
+  letter-spacing: 0em !important;
+  text-align: left;
+  background: #8DD3BB;
+  border-radius: 4px;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .simple-btn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.flight-detail main section .jssk-1 h2 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #FF8682;
+}
+.flight-detail main section .jssk-1 .form-check-label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .form-check-input:checked {
+  background-color: #b0d2c7;
+  border-color: var(--bs-primary);
+  border: 2px solid #b0d2c7;
+}
+.flight-detail main section .jssk-1 .form-check-input {
+  background-color: #ffffff;
+  border: 2px solid #112211;
+}
+.flight-detail main section .jssk-1 .bg-white {
+  background: #FFFFFF;
+  /* Cards Shadow */
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+}
+.flight-detail main section .jssk-1 .bg-white h2 {
+  font-family: TradeGothic LT Extended;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .bg-white h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #112211;
+}
+.flight-detail main section .jssk-1 .bg-white span {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.booking-detail section .breadcrumb li {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #ff8682;
+}
+.booking-detail section .breadcrumb .active {
+  color: #112211;
+}
+.booking-detail section .card {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+}
+.booking-detail section .card h1 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.31px;
+  color: #112211;
+}
+.booking-detail section .card h4 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.21px;
+  color: #112211;
+}
+.booking-detail section .card h6 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #112211;
+  color: #FF8682;
+  text-align: right;
+}
+.booking-detail section .card h5 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #112211;
+  text-align: right;
+}
+.booking-detail section .card-img {
+  background: #ffffff;
+  border: 0.5px solid #8DD3BB;
+  border-radius: 8px;
+}
+.booking-detail section .card-img h3 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #112211;
+}
+.booking-detail section .card-img p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail section .time-bottom h3 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #112211;
+}
+.booking-detail section .time-bottom span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail section .plans {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+  padding: 16px;
+}
+.booking-detail section .plans .plan {
+  cursor: pointer;
+}
+.booking-detail section .plans .plan input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  background: #112211;
+}
+.booking-detail section .plans .plan input[type=radio]:checked + .plan-content {
+  border-radius: 12px;
+  background: #8DD3BB;
+}
+.booking-detail section .plans .plan input[type=radio]:checked + .plan-content:after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background: #ffffff;
+  right: 20px;
+  top: 50%;
+  border-radius: 100%;
+  border: 3px solid #8DD3BB;
+  box-shadow: 0px 0px 0px 2px #ffffff;
+}
+.booking-detail section .plans .plan .plan-content {
+  padding: 16px;
+  display: flex;
+  position: relative;
+}
+.booking-detail section .plans .plan .plan-content span {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.21px;
+  color: #112211;
+}
+.booking-detail section .plans .plan .plan-content p {
+  padding-top: 8px;
+  margin-bottom: 0;
+  width: 95%;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail section .plans h6 {
+  padding: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+  text-decoration-line: underline;
+}
+.booking-detail section .plans .add-card {
+  margin-top: 16px;
+  border: 2px dashed #8dd3bb;
+  border-radius: 15px;
+  min-height: 188.83px;
+}
+.booking-detail section .plans .add-card button, .booking-detail section .plans .add-card body header .btn-1, body header .booking-detail section .plans .add-card .btn-1 {
+  border: none;
+  background-color: #ffffff;
+}
+.booking-detail section .plans .add-card button img, .booking-detail section .plans .add-card body header .btn-1 img, body header .booking-detail section .plans .add-card .btn-1 img {
+  width: 48px;
+  height: 48px;
+}
+.booking-detail section .plans .add-card p {
+  margin-bottom: 0;
+  text-align: center;
+}
+.booking-detail section .login {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+  padding: 16px;
+}
+.booking-detail section .login label {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25.26px;
+  color: #112211;
+  padding-bottom: 16px;
+}
+.booking-detail section .login input {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #1c1b1f;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+}
+.booking-detail section .login .form-text, .booking-detail section .login b {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.booking-detail section .login b {
+  font-weight: 500;
+}
+.booking-detail section .login .bg-btn {
+  border: none;
+  background-color: #8DD3BB;
+  border-radius: 4px;
+  padding: 14px 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail section .login .separator {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.booking-detail section .login .separator .line {
+  border: 1px solid #112211;
+  flex: 1;
+  background-color: #112211;
+}
+.booking-detail section .login .separator h2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+  padding: 0 1.5rem;
+  margin-bottom: 0;
+}
+.booking-detail section .login .login-btn {
+  width: 100%;
+  border: 1px solid #8dd3bb;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 16px;
+}
+.booking-detail section .login .pt-16 {
+  margin-top: 16px;
+}
+.booking-detail section .flight-profile {
+  padding: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 12px;
+  padding: 16px;
+}
+.booking-detail section .flight-profile h1 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+  margin-bottom: 4px;
+}
+.booking-detail section .flight-profile h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #112211;
+}
+.booking-detail section .flight-profile span {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+  border-radius: 4px;
+  border: 1px solid #8DD3BB;
+  padding: 8px;
+}
+.booking-detail section .flight-profile h3 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+}
+.booking-detail section .flight-profile h3 small {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+}
+.booking-detail section .flight-profile h4 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail section .flight-profile h4 b {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail section .flight-profile .table th {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.21px;
+  color: #112211;
+  padding: 0 0 16px 0;
+}
+.booking-detail section .flight-profile .table td {
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail section .flight-profile .table td:nth-child(2) {
+  text-align: end;
+}
+.booking-detail section .flight-profile label {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail .modal-dialog {
+  min-width: 640px;
+  min-height: 744.24px;
+}
+.booking-detail .modal-dialog .modal-content {
+  padding: 64px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.booking-detail .modal-dialog .modal-content .modal-header {
+  padding: 0;
+  border: none;
+}
+.booking-detail .modal-dialog .modal-content .modal-body {
+  padding: 0;
+}
+.booking-detail .modal-dialog .modal-content .modal-body h1 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50.52px;
+  color: #112211;
+  margin-bottom: 40px;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg {
+  margin-top: 24px;
+  padding-top: 8px;
+  position: relative;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg label {
+  margin-left: 10px;
+  background-color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: 0;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg input {
+  min-height: 56px;
+  background: #ffffff;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg input::-moz-placeholder {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg input::placeholder {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg input::-ms-value {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg img {
+  position: absolute;
+  right: 2%;
+  top: 40%;
+  background: #ffffff;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-fs-lg select {
+  min-height: 56px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #112211;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-check-input {
+  min-width: 19.5px;
+  min-height: 19.5px;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-check-input:checked {
+  background-color: #000000;
+  border-color: #5143d9;
+  border: 0.046875px solid #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .chek {
+  margin-left: 8px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-body .form-select {
+  background-size: 13.5px 13.5px;
+}
+.booking-detail .modal-dialog .modal-content .modal-footer {
+  padding: 0;
+  border: none;
+}
+.booking-detail .modal-dialog .modal-content .modal-footer button, .booking-detail .modal-dialog .modal-content .modal-footer body header .btn-1, body header .booking-detail .modal-dialog .modal-content .modal-footer .btn-1 {
+  margin: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #8DD3BB;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail .modal-dialog .modal-content .modal-footer p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+  text-align: center;
+  margin-top: 16px;
+}
+.booking-detail .details-top h1 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30.31px;
+  color: #112211;
+}
+.booking-detail .details-top h4 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+}
+.booking-detail .details-top h6 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #112211;
+  text-align: end;
+}
+.booking-detail .details-top button, .booking-detail .details-top body header .btn-1, body header .booking-detail .details-top .btn-1 {
+  border: none;
+}
+.booking-detail .details-top button.btn-1, .booking-detail .details-top body header .btn-1, body header .booking-detail .details-top .btn-1 {
+  min-width: 48px;
+  min-height: 48px;
+  background-color: #ffffff;
+  border: 1px solid #8DD3BB;
+  border-radius: 4px;
+}
+.booking-detail .details-top button.btn-2, .booking-detail .details-top body header .btn-2.btn-1, body header .booking-detail .details-top .btn-2.btn-1 {
+  min-width: 150px;
+  min-height: 48px;
+  background: #8DD3BB;
+  border-radius: 4px;
+}
+.booking-detail .details-midddel {
+  padding-top: 40px;
+}
+.booking-detail .details-midddel h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  color: #112211;
+  align-items: Right;
+  margin-bottom: 0;
+}
+.booking-detail .details-midddel h2 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+  align-items: Right;
+  margin-bottom: 0;
+}
+.booking-detail .details-midddel .s-1 {
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 16px;
+}
+.booking-detail .details-midddel .s-1 .s1 {
+  padding: 24px;
+  background: #EBF6F2;
+  border-radius: 16px 0 0 16px;
+}
+.booking-detail .details-midddel .s-1 .s2 {
+  padding: 0;
+}
+.booking-detail .details-midddel .s-1 .s2 .a1 {
+  border-radius: 0 16px 0 0;
+  background-color: #8DD3BB;
+  padding: 24px;
+}
+.booking-detail .details-midddel .s-1 .s2 .a1 h4 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25.26px;
+  color: #112211;
+  margin-bottom: 0;
+}
+.booking-detail .details-midddel .s-1 .s2 .a1 h3 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.68px;
+  color: #112211;
+  text-align: end;
+}
+.booking-detail .details-midddel .s-1 .s2 .a2 {
+  padding: 24px;
+}
+.booking-detail .details-midddel .s-1 .s2 .a2 h4 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #112211;
+  margin-bottom: 0;
+}
+.booking-detail .details-midddel .s-1 .s2 .a2 h5 {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #112211;
+  margin-bottom: 0;
+}
+.booking-detail .details-midddel .s-1 .s2 .a3 {
+  padding: 24px;
+}
+.booking-detail .details-midddel .s-2 {
+  padding-left: 0;
+}
+.booking-detail .details-midddel .s-2 .card {
+  box-shadow: none;
+  min-height: 309px;
+  background: #ffffff;
+  border: 1px solid #EAEAEA;
+  border-radius: 16px;
+  height: 100%;
+  padding: 20px;
+  position: relative;
+}
+.booking-detail .details-midddel .s-2 .card .card-1, .booking-detail .details-midddel .s-2 .card .card-2 {
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  position: absolute;
+  bottom: 10%;
+  max-width: 93px;
+  max-height: 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 4px 8px 4px 4px;
+}
+.booking-detail .details-midddel .s-2 .card .card-1 h5, .booking-detail .details-midddel .s-2 .card .card-2 h5 {
+  font-family: TradeGothic LT Extended;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10.1px;
+  color: #112211;
+  margin-bottom: 0;
+  text-align: start;
+}
+.booking-detail .details-midddel .s-2 .card .card-1 p, .booking-detail .details-midddel .s-2 .card .card-2 p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 4px;
+  line-height: 4.88px;
+  color: #112211;
+  margin-bottom: 0;
+  text-align: start;
+}
+.booking-detail .details-midddel .s-2 .card .card-2 {
+  top: 10%;
+  right: 10%;
+}
+.booking-detail .details-midddel .s-2 .card .box, .booking-detail .details-midddel .s-2 .card .box2 {
+  transition: all 0.05s ease-in-out;
+}
+.booking-detail .details-midddel .s-2 .card .box {
+  border: 2.66161px dashed;
+  position: absolute;
+  top: 82px;
+  width: 266px;
+  height: 254px;
+  border-color: #8DD3BB transparent transparent transparent;
+  border-radius: 52%/169px 100px;
+  transform: rotate(-55deg);
+  margin-left: 31px;
+}
+.booking-detail .details-bottom h1 {
+  padding-top: 64px;
+  margin-bottom: 0;
+  padding-bottom: 34px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #112211;
+}
+.booking-detail .details-bottom h2 {
+  padding-bottom: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #112211;
+  margin-bottom: 0;
+}
+.booking-detail .details-bottom h3 {
+  padding-top: 34px;
+  font-family: Montserratm;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #112211;
+}
+.booking-detail .details-bottom ul li {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #112211;
+}
+.booking-detail .details-bottom p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #112211;
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */

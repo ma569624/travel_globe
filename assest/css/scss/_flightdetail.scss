@@ -1,0 +1,177 @@
+.flight-detail {
+    main {
+        section {
+            .jssk-1 {
+                .breadcrumb-item {
+                    //styleName: Montserrat/Medium/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #FF8682;
+
+                }
+
+                h3 {
+                    //styleName: TradeGothic/Bold/24px;
+                    font-family: TradeGothic LT Extended;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+                }
+
+                .p-mah {
+                    //styleName: Montserrat/Medium/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+                }
+
+                p {
+                    //styleName: Montserrat/Medium/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+                }
+                .p-very {
+                    //styleName: Montserrat/Bold/12px;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 500;
+                    line-height: 15px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+                }
+
+                .card {
+                    background: rgba(141, 211, 187, 0.6);
+                    border-radius: 8px;
+
+                }
+
+                .book-now-btn {
+                    //styleName: Montserrat/Semibold/14px;
+                    font-family: Montserrat !important;
+                    font-size: 14px !important;
+                    font-weight: 600;
+                    line-height: 17px !important;
+                    letter-spacing: 0em !important;
+                    text-align: left;
+                    background: #8DD3BB;
+                    border-radius: 4px;
+                    color: #112211;
+                }
+
+                .simple-btn {
+
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 4px 8px;
+                    background-color: #fff;
+                    border: 1px solid #8DD3BB;
+                    border-radius: 4px;
+                    margin-right: 5px;
+                }
+
+                
+                h2 {
+                    //styleName: Montserrat/Bold/32px;
+                    font-family: Montserrat;
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 39px;
+                    letter-spacing: 0em;
+                    text-align: right;
+                    color: #FF8682;
+                }
+
+                .form-check-label {
+                    //styleName: Montserrat/Medium/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #112211;
+
+                }
+
+                .form-check-input:checked {
+                    background-color: #b0d2c7;
+                    border-color: var(--bs-primary);
+                    border: 2px solid #b0d2c7;
+
+                }
+
+                .form-check-input {
+                    background-color: #ffffff;
+                    border: 2px solid #112211;
+                }
+
+                .bg-white {
+                    background: #FFFFFF;
+                    /* Cards Shadow */
+                    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                    border-radius: 12px;
+
+                    h2 {
+                        //styleName: TradeGothic/Bold/20px;
+                        font-family: TradeGothic LT Extended;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #112211;
+
+                    }
+
+
+                    h4 {
+                        //styleName: Montserrat/Medium/20px;
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                        color: #112211;
+                    }
+
+                    span {
+                        //styleName: Montserrat/Medium/16px;
+                        font-family: Montserrat;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+
+
+
+
+
+                }
+            }
+        }
+
+    }
+}

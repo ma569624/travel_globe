@@ -1,0 +1,17 @@
+@mixin typograph ($family,$weight,$size,$height, $color: $text-dark-color) 
+{
+   
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+
+@mixin card-shadow(){
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 12px;
+    padding: 16px;
+}
+

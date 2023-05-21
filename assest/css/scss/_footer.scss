@@ -1,0 +1,91 @@
+footer{
+        .footer{
+            background-color: $main-bg;
+            padding-top: 120px;
+            margin-top: -87px;
+        }
+        .Subscribe{
+            .container{
+                
+                padding: 0 24px;
+                background: #CDEAE1;
+                /* Cards Shadow */
+
+                box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+                border-radius: 20px;
+
+                h3{
+                    font-family: TradeGothic LT Extended;
+                    font-size: 44px;
+                    font-weight: 700;
+                    line-height: 54px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                h4{
+                    //styleName: TradeGothic/Bold/20px;
+                    font-family: TradeGothic LT Extended;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                p{
+                    //styleName: Montserrat/Medium/16px;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+                input{
+                    background: #FFFFFF;
+                    border-radius: 4px;
+                }
+                button{
+                    
+                    padding: 8px 16px 8px 16px;
+                    background: #112211;
+                    border-radius: 4px;
+                    //styleName: Montserrat/Semibold/14px;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 17px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+        }
+
+        h5{
+            //styleName: TradeGothic/Bold/16px;
+            font-family: TradeGothic LT Extended;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        a{
+            //styleName: Montserrat/Medium/14px;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #112211 !important;
+            text-decoration: none;
+
+            &:hover{
+                color: #112211 !important;
+            }
+        }
+    }

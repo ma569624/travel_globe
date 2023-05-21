@@ -1,0 +1,42 @@
+header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    padding: 21px, 104px, 21px, 104px;
+    h4 {
+        font-size: 12px;
+
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0em;
+    }
+
+    nav {
+        color: #ffffff;
+    }
+
+    button {
+        background-color: #FFFFFF;
+        border: none;
+        font-family: Montserrat;
+        font-size: 14px ;
+        font-weight: 600 ;
+        line-height: 17px ;
+        letter-spacing: 0em ;
+        text-align: left;
+    }
+    .btn-1{
+        background: #112211;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        @extend button;
+        min-width: 93px;
+        text-align: center;
+        min-height: 38px;
+
+    }
+    
+
+}
